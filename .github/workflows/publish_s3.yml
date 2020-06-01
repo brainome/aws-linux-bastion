@@ -10,7 +10,7 @@ on:
 
 env:
   BRANCH_NAME: "${GITHUB_REF##*/}"
-  S3_BUCKET_NAME: 'download.brainome.net'
+  S3_BUCKET_NAME: 'config.brainome.net'
   S3_BUCKET_DIR: "aws-linux-bastion/${GITHUB_REF##*/}"
 
 
@@ -42,4 +42,4 @@ jobs:
     # copy file to s3 bucket download.braionme.net
     - name: publish templates to s3
       run: |
-        aws s3 sync . s3://${{ env.S3_BUCKET_NAME }}/${{ env.S3_BUCKET_DIR }}/
+        aws s3 sync --quiet --exclude .git --exclude .github . s3://${{ env.S3_BUCKET_NAME }}/${{ env.S3_BUCKET_DIR }}/
