@@ -9,9 +9,9 @@ on:
     branches: [ brainome-dev, brainome-prod ]
 
 env:
-  BRANCH_NAME:${GITHUB_REF##*/}
+  BRANCH_NAME:"${GITHUB_REF##*/}"
   S3_BUCKET_NAME:'download.brainome.net'
-  S3_BUCKET_DIR:'aws-linux-bastion/${GITHUB_REF##*/}'
+  S3_BUCKET_DIR:"aws-linux-bastion/${GITHUB_REF##*/}"
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
