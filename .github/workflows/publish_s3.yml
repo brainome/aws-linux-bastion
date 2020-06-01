@@ -10,7 +10,7 @@ on:
 
 env:
   BRANCH_NAME: "${GITHUB_REF##*/}"
-  S3_BUCKET_NAME: 'config.brainome.net'
+  S3_BUCKET_NAME: 'config-brainome-net'
   S3_BUCKET_DIR: "aws-linux-bastion/${GITHUB_REF##*/}"
 
 
