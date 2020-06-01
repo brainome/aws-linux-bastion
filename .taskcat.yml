@@ -32,7 +32,8 @@ project:
     PrivateSubnet2CIDR: 10.0.32.0/19
     PublicSubnet1CIDR: 10.0.128.0/20
     PublicSubnet2CIDR: 10.0.144.0/20
-    QSS3BucketName: $[taskcat_autobucket]
+    QSS3BucketName: download.brainome.net
+    QSS3KeyPrefix: brainome-dev
     RemoteAccessCIDR: 0.0.0.0/32
     VPCCIDR: 10.0.0.0/16
     QSS3BucketRegion: $[taskcat_current_region]
