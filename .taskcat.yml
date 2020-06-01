@@ -1,6 +1,6 @@
 project:
-  name: quickstart-linux-bastion
-  owner: quickstart-eng@amazon.com
+  name: aws-linux-bastion
+  owner: andy.stevko@brainome.ai
   lambda_source_path: functions/source
   lambda_zip_path: packages
   regions:
@@ -26,14 +26,14 @@ project:
   template: templates/linux-bastion-master.template
   parameters:
     AvailabilityZones: $[taskcat_getaz_2]
-    BastionInstanceType: t3.large
+    BastionInstanceType: t3.small
     KeyPairName: $[taskcat_getkeypair]
     PrivateSubnet1CIDR: 10.0.0.0/19
     PrivateSubnet2CIDR: 10.0.32.0/19
     PublicSubnet1CIDR: 10.0.128.0/20
     PublicSubnet2CIDR: 10.0.144.0/20
     QSS3BucketName: $[taskcat_autobucket]
-    RemoteAccessCIDR: 10.0.0.0/16
+    RemoteAccessCIDR: 0.0.0.0/32
     VPCCIDR: 10.0.0.0/16
     QSS3BucketRegion: $[taskcat_current_region]
 tests:
