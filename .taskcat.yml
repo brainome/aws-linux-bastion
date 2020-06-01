@@ -8,6 +8,7 @@ project:
   - us-east-2
   template: templates/linux-bastion-master.template
   parameters:
+    BastionHostName: brainome-dev
     AvailabilityZones: $[taskcat_getaz_2]
     BastionInstanceType: t3.small
     KeyPairName: $[taskcat_getkeypair]
@@ -15,7 +16,7 @@ project:
     PrivateSubnet2CIDR: 10.0.32.0/19
     PublicSubnet1CIDR: 10.0.128.0/20
     PublicSubnet2CIDR: 10.0.144.0/20
-    QSS3BucketName: download.brainome.net
+    QSS3BucketName: config.brainome.net
     QSS3KeyPrefix: brainome-dev
     RemoteAccessCIDR: 0.0.0.0/32
     VPCCIDR: 10.0.0.0/16
