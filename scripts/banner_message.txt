@@ -1,12 +1,27 @@
 
-###############################################################################
-#     ___        ______     ___        _      _      ____  _             _    #
-#    / \ \      / / ___|   / _ \ _   _(_) ___| | __ / ___|| |_ __ _ _ __| |_  #
-#   / _ \ \ /\ / /\___ \  | | | | | | | |/ __| |/ / \___ \| __/ _` | '__| __| #
-#  / ___ \ V  V /  ___) | | |_| | |_| | | (__|   <   ___) | || (_| | |  | |_  #
-# /_/   \_\_/\_/  |____/   \__\_\\__,_|_|\___|_|\_\ |____/ \__\__,_|_|   \__| #
-#-----------------------------------------------------------------------------#
-#                           Authorized access only!                           #
-#         Disconnect IMMEDIATELY if you are not an authorized user!!!         #
-#                All actions will be monitored and recorded.                  #
-###############################################################################
+####################################################################
+#    (`                                                            #
+#  ( )\  (       )  (                  )      (        )  (        #
+#  )((_) )(   ( /(  )\   (      (     (      ))\    ( /(  )\       #
+# ((_)_ (()\  )(_))((_)  )\ )   )\    )\  ' /((_)   )(_))((_)      #
+#  | _ ) ((_)((_)_  (_) _(_/(  ((_) _((_)) (_))    ((_)_  (_)      #
+#  | _ \| '_|/ _` | | || ' \))/ _ \| '  \()/ -_) _ / _` | | |      #
+#  |___/|_|  \__,_| |_||_||_| \___/|_|_|_| \___|(_)\__,_| |_|      #
+#                                                                  #
+####################################################################
+******************************************************************
+** WARNING: This server contains the secrets of many companies. **
+** Snooping around may result in your legal prosecution.        **
+******************************************************************
+#
+# BRAINOME CONFIDENTIAL
+# Copyright (c) 2019 - 2020 Brainome Incorporated. All Rights Reserved.
+# NOTICE: All information contained herein is, and remains the property of
+# Brainome Incorporated and its suppliers, if any. The intellectual and
+# technical concepts contained herein are proprietary to Brainome Incorporated and its
+# suppliers and may be covered by U.S. and Foreign Patents, patents in process,
+# and are protected by trade secret or copyright law. Dissemination of this information or
+# reproduction of this material is strictly forbidden unless prior written permission is
+# obtained from Brainome Incorporated.
+#
+
