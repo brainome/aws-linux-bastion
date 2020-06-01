@@ -17,7 +17,7 @@ env:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  publish-s3:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -42,4 +42,4 @@ jobs:
     # copy file to s3 bucket download.braionme.net
     - name: publish templates to s3
       run: |
-        aws s3 cp * s3://${{ env.S3_BUCKET_NAME }}/${{ env.S3_BUCKET_DIR }}/
+        aws s3 sync . s3://${{ env.S3_BUCKET_NAME }}/${{ env.S3_BUCKET_DIR }}/
