@@ -11,9 +11,13 @@ S3 bucket name = config-brainome-net
 
 **DEV template url** 
 
+https://config-brainome-net.s3.amazonaws.com/aws-linux-bastion/brainome-dev/templates/linux-bastion-master.template
+
 s3://config-brainome-net/aws-linux-bastion/brainome-dev/templates/linux-bastion-master.template
 
 **PROD template url**
+
+https://config-brainome-net.s3.amazonaws.com/aws-linux-bastion/brainome-prod/templates/linux-bastion-master.template
  
 s3://config-brainome-net/aws-linux-bastion/brainome-prod/templates/linux-bastion-master.template
 
@@ -32,3 +36,4 @@ Deployment steps:
 
 The Quick Start provides parameters that you can set to customize your deployment. For architectural details, best practices, step-by-step instructions, and customization options, see the [deployment guide](https://fwd.aws/R9NRw).
 
+arn:aws:s3:::config-brainome-net
