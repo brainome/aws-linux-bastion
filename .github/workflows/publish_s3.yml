@@ -45,3 +45,7 @@ jobs:
     - name: publish templates to s3
       run: |
         aws s3 sync --quiet --exclude ".git/*" --exclude ".github/*" . s3://${{ env.S3_BUCKET_NAME }}/${{ env.S3_BUCKET_DIR }}/
+
+    - name: clean up
+      run: |
+        rm -f ~/.aws/config ~/.aws/credentials
